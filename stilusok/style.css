@@ -1,0 +1,253 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    max-width: 100%!important;
+}
+.container-fluid{
+    background-color: #030202;
+    width: 100%!important;
+}
+
+.row{
+    margin: 0!important;
+
+}
+.col{
+    margin: 0!important;
+
+}
+body{
+    background: #030202;
+    transition: 0.6s all;
+    -webkit-transition: 0.6s all;
+    -moz-transition: 0.6s all;
+    -ms-transition: 0.6s all;
+    -o-transition: 0.6s all;
+}
+header{
+    height: 100vh;
+    background-image: url('https://cdn.wallpapersafari.com/86/95/ilDfHb.jpg') ;
+    width: 100%!important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px)!important;
+    z-index:50;
+}
+
+h1{
+    color: #dcc7be!important;
+}
+#formazas{
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
+
+}
+.navbar-brand{
+    font-size: 30px!important;
+}
+
+
+#zold{
+    color:#62AB37;
+}
+#loader {
+    position: absolute;
+    left: 47%;
+    top: 44%;
+
+
+    transition:0.6s;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #62AB37;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    -webkit-transition:0.6s;
+    -moz-transition:0.6s;
+    -ms-transition:0.6s;
+    -o-transition:0.6s;
+}
+@media only screen and (max-width: 800px) {
+    #loader {
+        position: absolute;
+        left: 45%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #loader {
+        position: absolute;
+        left: 43%;
+    }
+}
+@media only screen and (max-width: 440px) {
+    #loader {
+        position: absolute;
+        left: 40%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    #loader {
+        position: absolute;
+        left: 37%;
+    }
+}
+  
+  
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+ 
+  body{
+    overflow: hidden;
+  }
+  #egesz {
+    opacity:0;
+    text-align: center;
+}
+  #loader {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+#egesz.aktiv {
+    opacity:1;
+
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+  #loader.hide {
+    opacity: 0;
+  }
+  
+ 
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4d872b;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a6620;
+  }
+.navbar-brand{
+    padding-left: 20px;
+    text-shadow: -2px -1px 0.3px rgba(0, 0, 0, 0.69);
+    padding-top:0px;
+}
+.fekahatter{
+    background-color: #030202!important;
+}
+.nav-link{
+    font-size: 20px!important;
+    font-weight: 550;
+  ;
+}
+.btn{
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.563);
+}
+.btn:active{
+    border:none;
+}
+.btn:focus{
+    border:3px #62AB37 solid;
+}
+@media only screen and (min-width: 1000px) {
+    .btn{
+        margin-right:20px;
+        font-weight: 550;
+    }
+    .navbar-brand{
+        color:white;
+    }
+    #feher{
+        color:white;
+    }
+    .nav-link{
+        transition: 0.2s all;
+        color:rgba(255, 255, 255, 0.784)!important;
+        -webkit-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -o-transition: 0.2s all;
+}
+    .nav-link:hover{
+        border-bottom: #62AB37 solid 3px;
+        padding:5px;
+    }
+    .btn:hover{
+        border:2.5px #62AB37 solid;
+    }
+}
+.btn{
+    border: 2px #62AB37 solid;
+}
+.navbar-toggler{
+    background: #62AB37;
+}
+#tartalom h1{
+    border-left: 5px #62AB37 solid;
+    width: 140px;
+    padding-left: 10px;
+    margin:0 auto;
+}
+@media only screen and (max-width: 1000px) {
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.834);
+        transition:0.6s all!important           ;
+        -webkit-transition:0.6s all!important           ;
+        -moz-transition:0.6s all!important           ;
+        -ms-transition:0.6s all!important           ;
+        -o-transition:0.6s all!important           ;
+        position: fixed;
+        width: 100%;
+        backdrop-filter: blur(20px);
+}
+#feher{
+    color:white;
+}
+    .navbar-brand b{
+        color:#62AB37;
+        
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color:white!important;
+    }
+}
+
