@@ -18,6 +18,40 @@ html{
     margin: 0!important;
 
 }
+#headertartalom{
+    display:flex;
+    align-content: center;
+    height: 90%;
+}
+#headerszoveg p{
+
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+#udv{
+    margin:0 auto;
+    backdrop-filter: blur(10px);
+    background-color: #00000039;
+    max-width: 450px;
+    border-bottom:#EABE7C 4px solid;
+    margin-bottom:10px;
+}
+.carousel {
+    position: relative;
+    width: 80%;
+    height: 270px;
+    overflow: hidden;
+    background-color: #EABE7C;}
+    .carousel-item {
+      position: absolute;
+      width: 100%;
+      height: 270px;
+      border: 1px solid #2e2e2e;
+      top: 0;
+      left: 100%;}
+      
 body{
     background: #030202;
     transition: 0.6s all;
@@ -28,7 +62,7 @@ body{
 }
 header{
     height: 100vh;
-    background-image: url('https://cdn.wallpapersafari.com/86/95/ilDfHb.jpg') ;
+    background-image: url('https://wallpapercave.com/wp/wp6832137.jpg') ;
     width: 100%!important;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -38,10 +72,10 @@ header{
 }
 
 h1{
-    color: #dcc7be!important;
+    color: #ffffff!important;
 }
 #formazas{
-    backdrop-filter: blur(10px);
+  
     height: 100%;
     width: 100%;
     background: linear-gradient(to bottom, rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
@@ -53,7 +87,7 @@ h1{
 
 
 #zold{
-    color:#62AB37;
+    color:#EABE7C;
 }
 #loader {
     position: absolute;
@@ -67,7 +101,7 @@ h1{
     height: 80px;
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 8px solid #62AB37;
+    border-top: 8px solid #EABE7C;
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     -webkit-transition:0.6s;
@@ -153,12 +187,12 @@ h1{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #4d872b;
+    background: #120C0C;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #3a6620;
+    background: #382525;
   }
 .navbar-brand{
     padding-left: 20px;
@@ -174,19 +208,22 @@ h1{
   ;
 }
 .btn{
-
+    background: rgba(0, 0, 0, 0.555)!important;
+    padding:7px!important;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.563);
+    backdrop-filter: blur(10px);
 }
 .btn:active{
     border:none;
 }
 .btn:focus{
-    border:3px #62AB37 solid;
+    border:3px #EABE7C solid;
+    padding:6px!important;
 }
 @media only screen and (min-width: 1000px) {
     .btn{
@@ -208,28 +245,30 @@ h1{
         -o-transition: 0.2s all;
 }
     .nav-link:hover{
-        border-bottom: #62AB37 solid 3px;
+        border-bottom: #EABE7C solid 3px;
         padding:5px;
     }
     .btn:hover{
-        border:2.5px #62AB37 solid;
+        border:2.5px #EABE7C solid;
+        padding:6px!important;
     }
 }
 .btn{
-    border: 2px #62AB37 solid;
+    border: 2px #EABE7C solid;
 }
 .navbar-toggler{
-    background: #62AB37;
+    background: #EABE7C;
 }
 #tartalom h1{
-    border-left: 5px #62AB37 solid;
+    border-left: 5px #EABE7C solid;
     width: 140px;
     padding-left: 10px;
     margin:0 auto;
 }
 @media only screen and (max-width: 1000px) {
     .navbar{
-        background-color: rgba(0, 0, 0, 0.834);
+        z-index: 1;
+
         transition:0.6s all!important           ;
         -webkit-transition:0.6s all!important           ;
         -moz-transition:0.6s all!important           ;
@@ -239,15 +278,19 @@ h1{
         width: 100%;
         backdrop-filter: blur(20px);
 }
+.btn{
+    background-color: rgba(0, 0, 0, 0.197)!important;
+    backdrop-filter: blur(20px);
+    font-weight: 550px;
+}
 #feher{
     color:white;
 }
     .navbar-brand b{
-        color:#62AB37;
+        color:#EABE7C;
         
     }
     .navbar-light .navbar-nav .nav-link{
         color:white!important;
     }
 }
-
