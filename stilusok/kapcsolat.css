@@ -185,6 +185,7 @@ h1{
 }
   #loader.hide {
     opacity: 0;
+    z-index: -1;
   }
   
  
