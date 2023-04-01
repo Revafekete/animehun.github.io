@@ -21,3 +21,17 @@ function showPage() {
   egesz.classList.add("aktiv");
 document.body.style.overflow = "visible";
 }
+
+history.scrollRestoration = 'manual';
+
+if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+} else {
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+}
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
