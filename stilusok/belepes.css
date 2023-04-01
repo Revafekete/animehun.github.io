@@ -10,10 +10,7 @@ html{
     width: 100%!important;
 }
 
-.row{
-    margin: 0!important;
 
-}
 
 .col{
     margin: 0!important;
@@ -71,7 +68,87 @@ body{
     -ms-transition: 0.6s all;
     -o-transition: 0.6s all;
 }
+#egesz{
+    background-image: url('https://cdn.wallpapersafari.com/80/81/5Coc4H.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+@media only screen and (min-width: 800px) {
+    #box{
+    min-width: 24%;
+}
+}
+@media only screen and (max-width: 800px) {
+    #box{
+    min-width: 50%;
+}
+}
+input:focus{
+    transition:0.6s;
+    outline: 2px #dd5f31 solid;
+}
 
+#nincsfelh{
+    margin-bottom: 10px;
+}
+#nincsfelh a {
+    color:#DD6031;
+    font-weight: 550;
+  
+}
+#box{
+    transition:0.6s;
+    backdrop-filter: blur(20px);
+    background-color: #030202dc;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px #dd5f31 solid;
+    -webkit-transition:0.6s;
+    -moz-transition:0.6s;
+    -ms-transition:0.6s;
+    -o-transition:0.6s;
+}
+.row{
+    margin:0!important;
+    text-align: center;
+    
+}
+h3{
+    color:white!important;
+    text-align: left;
+    font-size: 20px;
+    border-left: #DD6031 3.5px solid;
+    padding-left: 5px;
+}
+form{
+    padding-top: 20px;
+}
+form input{
+    backdrop-filter: blur(20px);
+    background-color: rgba(56, 46, 40, 0.576);
+    border:none;
+    color:white;
+    padding:5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+form .row{
+    margin: 10px!important;;
+}
 .dropdown-menu{
     background: #030202!important;
  
@@ -84,26 +161,12 @@ body{
     background-color: #DD6031;
     color:black!important;
 }
-header{
-    height: 100vh;
-    background-image: url('https://images2.alphacoders.com/983/983353.png') ;
-    width: 100%!important;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(10px)!important;
-    z-index:50;
-}
 
+b{
+    font-size: 35px;
+}
 h1{
     color: #ffffff!important;
-}
-#formazas{
-  
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
-
 }
 .navbar-brand{
     font-size: 30px!important;
@@ -247,9 +310,6 @@ h1{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.344);
     backdrop-filter: blur(10px);
 }
-.navbar-text a:hover{
-    text-decoration: none;
-}
 .btn:active{
     border:none;
 }
@@ -290,40 +350,27 @@ h1{
     border: 2px #DD6031 solid;
 }
 .navbar-toggler{
-    background: #DD6031;
+      backdrop-filter: blur(20px);
+      background: #212121aa;
+      color:white!important;
+      border: 2px #DD6031 solid;
+      padding:8px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      position:absolute;
+      right: 40px;
+      font-weight: 550;
+      font-size: 17px;
 }
-#tartalom h1{
-    border-bottom: 5px #DD6031 solid;
-    width: 160px;
-    background-color: #18181899;
-    padding-bottom: 5px;
-    margin:0 auto;
-}
-.navbar-light .navbar-text a{
-    color:white!important;
-}
-@media only screen and (max-width: 1000px) {
-    .navbar{
-        z-index: 1;
-
-        transition:0.6s all!important           ;
-        -webkit-transition:0.6s all!important           ;
-        -moz-transition:0.6s all!important           ;
-        -ms-transition:0.6s all!important           ;
-        -o-transition:0.6s all!important           ;
-        position: fixed;
-        width: 100%;
-        backdrop-filter: blur(20px);
-        background-color: #030202c9!important;
-}
-header h1{
-    backdrop-filter: blur(20px);
-    background-color: #030202cd!important;
+.navbar-toggler:hover{
+    border: 3px #DD6031 solid;
+    padding:7px;
+  
 }
 
-.dropdown-menu{
-    position:sticky!important;
-}
 .btn{
     background-color: rgba(0, 0, 0, 0.197)!important;
     backdrop-filter: blur(20px);
@@ -333,17 +380,8 @@ header h1{
     color:white;
 }
 
-    .navbar-brand b{
-        color:#DD6031;
-        
-    }
-    .navbar-light .navbar-nav .nav-link{
-        color:white!important;
-    }
-}
-.navbar-brand b{
-    text-shadow: 0px 0px 5px rgb(0, 0, 0)!important;
-}
+   
+
 @media only screen and (max-width: 768px) {
     #headerszoveg{
         margin-top: 100px;
