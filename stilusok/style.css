@@ -22,7 +22,7 @@ html{
 #headertartalom{
     display:flex;
     align-content: center;
-    height: 90%;
+    height: 85%;
 }
 #headerszoveg p{
     text-shadow: 2px 2px 2px black;
@@ -335,8 +335,15 @@ button:active, button:focus{
     background: #DD6031;
 }
 
-
-
+#kapcs{
+    padding-top: 120px;
+}
+#kapcsolat{
+    background-color: black!important;
+    max-width: 250px;
+    margin: 0 auto;
+    border-bottom: #DD6031 3px solid;
+}
 
   
 
