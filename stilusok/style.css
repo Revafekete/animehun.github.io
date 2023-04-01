@@ -96,15 +96,20 @@ body{
 }
 
 .dropdown-menu{
-    background: #030202!important;
- 
-   
+    backdrop-filter: blur(10px);
+    background: #030202b9!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
 }
 .dropdown-menu button{
     color:rgba(255, 255, 255, 0.784)!important
 }
 .dropdown-menu button:hover{
     background-color: #DD6031;
+    font-weight: 700;
     color:rgba(0, 0, 0, 0.801)!important;
 }
 header{
@@ -125,7 +130,7 @@ h1{
   
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, black,rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
+    background: linear-gradient(to bottom,rgba(18, 18, 18, 0.801),rgba(18, 18, 18, 0.801),rgba(18, 18, 18, 0.801),rgba(18, 18, 18, 0.801), black)!important;
 
 }
 

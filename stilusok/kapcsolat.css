@@ -14,6 +14,7 @@ html{
     margin: 0!important;
 
 }
+
 .col{
     margin: 0!important;
 
@@ -24,49 +25,67 @@ html{
     height: 90%;
 }
 #headerszoveg p{
-
+    text-shadow: 2px 2px 2px black;
     color:white;
     font-size: 25px;
     font-weight: 600;
 
 }
 #udv{
+
+    text-shadow: 2px 2px 2px black;
     margin:0 auto;
-    backdrop-filter: blur(10px);
-    background-color: #00000039;
+
+    font-size: 70px;
     max-width: 450px;
-    border-bottom:#DD6031 4px solid;
+    
     margin-bottom:10px;
 }
+
+#randomanimegomb button{
+    background-color: #DD6031;
+    color:rgb(0, 0, 0);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-weight: 700;
+    padding:8px;
+    transition:0.8s;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -ms-transition:0.8s;
+    -o-transition:0.8s;
+    border:none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+}
+#randomanimegomb button:hover{
+    background-color: #000000;
+    color:#ffffff;
+}
+
 .carousel {
-    
+    border-radius: 10px;
+    margin:0 auto;
     position: relative;
     width: 80%;
     height: 270px;
     overflow: hidden;
-    background-color: #DD6031;}
+    background-color: #DD6031;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+}
     .carousel-item {
       position: absolute;
-      width: 100%;
+      width: 80%;
       height: 270px;
       border: 1px solid #2e2e2e;
       top: 0;
       left: 100%;}
-
-
-      header h1{
-        position:absolute;
-        top: 120px;
-        left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-        margin:0 auto;
-        background: black;
-        width: 250px;
-        border-bottom:#DD6031 4px solid;
-       
-    }
 body{
     background: #030202;
     transition: 0.6s all;
@@ -74,6 +93,19 @@ body{
     -moz-transition: 0.6s all;
     -ms-transition: 0.6s all;
     -o-transition: 0.6s all;
+}
+
+.dropdown-menu{
+    background: #030202!important;
+ 
+   
+}
+.dropdown-menu button{
+    color:rgba(255, 255, 255, 0.784)!important
+}
+.dropdown-menu button:hover{
+    background-color: #DD6031;
+    color:rgba(0, 0, 0, 0.801)!important;
 }
 header{
     height: 60vh;
@@ -89,13 +121,21 @@ header{
 h1{
     color: #ffffff!important;
 }
+header h1{
+    background-color: black!important;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-bottom: #DD6031 3px solid;
+}
 #formazas{
   
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
+    background: linear-gradient(to bottom, black,rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
 
 }
+
 .navbar-brand{
     font-size: 30px!important;
 }
@@ -221,31 +261,49 @@ h1{
 .nav-link{
     font-size: 20px!important;
     font-weight: 550;
+    cursor:pointer;
   ;
+}
+.nem:hover{
+    border-bottom: #DD6031 solid 0px;
+    padding:0px;
 }
 .btn{
     background: rgba(0, 0, 0, 0.555)!important;
-    padding:7px!important;
+    padding-top:7px!important;
+    padding-bottom:7px!important;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.563);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.344);
     backdrop-filter: blur(10px);
+    padding-left: 15px !important;
+    padding-right: 15px!important;
+}
+.navbar-text a:hover{
+    text-decoration: none;
 }
 .btn:active{
-    border:none;
+    outline: 0!important;
 }
 .btn:focus{
-    border:3px #DD6031 solid;
-    padding:6px!important;
+    outline:0!important;
+}
+button:active, button:focus{
+    outline:0!important;
+}
+.btn:focus, a:focus{
+    outline: 0!important;
 }
 @media only screen and (min-width: 1000px) {
     .btn{
         margin-right:20px;
         font-weight: 550;
+        
     }
+  
     .navbar-brand{
         color:white;
     }
@@ -262,24 +320,56 @@ h1{
 }
     .nav-link:hover{
         border-bottom: #DD6031 solid 3px;
+        color:white !important;
         padding:5px;
     }
     .btn:hover{
-        border:2.5px #DD6031 solid;
-        padding:6px!important;
+        border:3px #DD6031 solid;
+        padding-top:6px!important;
+        padding-bottom:6px!important;
     }
 }
 .btn{
     border: 2px #DD6031 solid;
+
 }
 .navbar-toggler{
     background: #DD6031;
 }
+
+
+
+
+  
+
+
+
+
+
+
 #tartalom h1{
     border-left: 5px #DD6031 solid;
-    width: 140px;
-    padding-left: 10px;
-    margin:0 auto;
+    width: 30%;
+    padding-bottom: 5px;
+    text-align: left;
+    justify-self: center;
+    padding-left:10px;
+    font-size: 30px;
+}
+.navbar-light .navbar-text a{
+    color:white!important;
+}
+@media only screen and (min-width: 800px) {
+#tartalom{
+    padding-top: 100px!important;
+    padding-left:40px!important;
+}
+}
+@media only screen and (max-width: 770px) {
+    #tartalom h1{
+    width: 100%;
+margin-top:50px ;
+}
 }
 @media only screen and (max-width: 1000px) {
     .navbar{
@@ -293,6 +383,14 @@ h1{
         position: fixed;
         width: 100%;
         backdrop-filter: blur(20px);
+        border-bottom: #DD6031 2px solid;
+}
+header h1{
+    font-size: 35px!important;
+}
+
+.dropdown-menu{
+    position:sticky!important;
 }
 .btn{
     background-color: rgba(0, 0, 0, 0.197)!important;
@@ -302,6 +400,7 @@ h1{
 #feher{
     color:white;
 }
+
     .navbar-brand b{
         color:#DD6031;
         
@@ -310,3 +409,25 @@ h1{
         color:white!important;
     }
 }
+.navbar-brand b{
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)!important;
+}
+@media only screen and (max-width: 768px) {
+    #headerszoveg{
+        margin-top: 100px;
+    }
+    header{
+        height: 110vh;
+    }
+}
+@media only screen and (max-width: 523px) {
+    header{
+        background-image: url('https://images2.alphacoders.com/983/983353.png') ;
+        width: 100%!important;
+        background-position: -400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(10px)!important;
+        z-index:50;
+        }
+    }
