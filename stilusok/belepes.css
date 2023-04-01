@@ -10,8 +10,6 @@ html{
     width: 100%!important;
 }
 
-
-
 .col{
     margin: 0!important;
 
@@ -74,7 +72,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+
 }
+
 @media only screen and (min-width: 800px) {
     #box{
     min-width: 25%;
@@ -333,7 +333,13 @@ h1{
         margin-right:20px;
         font-weight: 550;
     }
+    #formazas{
   
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to bottom,rgba(0, 0, 0, 0.585),rgba(0, 0, 0, 0.585),rgba(0, 0, 0, 0.585),rgba(0, 0, 0, 0.585), black)!important;
+    
+    }
     .navbar-brand{
         color:white;
     }
@@ -391,6 +397,7 @@ h1{
         height: 110vh;
     }
 }
+
 @media only screen and (max-width: 523px) {
     header{
         background-image: url('https://images2.alphacoders.com/983/983353.png') ;
