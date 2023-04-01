@@ -24,27 +24,37 @@ html{
     height: 90%;
 }
 #headerszoveg p{
-
+    text-shadow: 2px 2px 2px black;
     color:white;
     font-size: 25px;
     font-weight: 600;
 
 }
 #udv{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+    text-shadow: 2px 2px 2px black;
     margin:0 auto;
     backdrop-filter: blur(10px);
     background-color: #00000039;
     max-width: 450px;
-    border-bottom:#EABE7C 4px solid;
+    border-left:#3effaf 4px solid;
+    
     margin-bottom:10px;
 }
 .carousel {
+    border-radius: 10px;
     margin:0 auto;
     position: relative;
     width: 80%;
     height: 270px;
     overflow: hidden;
-    background-color: #EABE7C;}
+    background-color: #3effaf;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+}
     .carousel-item {
       position: absolute;
       width: 80%;
@@ -87,7 +97,7 @@ h1{
 
 
 #zold{
-    color:#EABE7C;
+    color:#3effaf;
 }
 #loader {
     position: absolute;
@@ -101,7 +111,7 @@ h1{
     height: 80px;
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 8px solid #EABE7C;
+    border-top: 8px solid #3effaf;
     -webkit-animation: spin 1s linear infinite;
     animation: spin 1s linear infinite;
     -webkit-transition:0.6s;
@@ -215,14 +225,14 @@ h1{
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.563);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.344);
     backdrop-filter: blur(10px);
 }
 .btn:active{
     border:none;
 }
 .btn:focus{
-    border:3px #EABE7C solid;
+    border:3px #3effaf solid;
     padding:6px!important;
 }
 @media only screen and (min-width: 1000px) {
@@ -245,24 +255,25 @@ h1{
         -o-transition: 0.2s all;
 }
     .nav-link:hover{
-        border-bottom: #EABE7C solid 3px;
+        border-bottom: #3effaf solid 3px;
         padding:5px;
     }
     .btn:hover{
-        border:2.5px #EABE7C solid;
+        border:2.5px #3effaf solid;
         padding:6px!important;
     }
 }
 .btn{
-    border: 2px #EABE7C solid;
+    border: 2px #3effaf solid;
 }
 .navbar-toggler{
-    background: #EABE7C;
+    background: #3effaf;
 }
 #tartalom h1{
-    border-left: 5px #EABE7C solid;
-    width: 140px;
-    padding-left: 10px;
+    border-bottom: 5px #3effaf solid;
+    width: 160px;
+    background-color: #18181899;
+    padding-bottom: 5px;
     margin:0 auto;
 }
 @media only screen and (max-width: 1000px) {
@@ -278,6 +289,7 @@ h1{
         width: 100%;
         backdrop-filter: blur(20px);
 }
+
 .btn{
     background-color: rgba(0, 0, 0, 0.197)!important;
     backdrop-filter: blur(20px);
@@ -286,11 +298,34 @@ h1{
 #feher{
     color:white;
 }
+
     .navbar-brand b{
-        color:#EABE7C;
+        color:#3effaf;
         
     }
     .navbar-light .navbar-nav .nav-link{
         color:white!important;
     }
 }
+.navbar-brand b{
+    text-shadow: 0px 0px 5px rgb(0, 0, 0)!important;
+}
+@media only screen and (max-width: 768px) {
+    #headerszoveg{
+        margin-top: 100px;
+    }
+    header{
+        height: 110vh;
+    }
+}
+@media only screen and (max-width: 523px) {
+    header{
+        background-image: url('https://wallpapercave.com/wp/wp6832137.jpg') ;
+        width: 100%!important;
+        background-position: -400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(10px)!important;
+        z-index:50;
+        }
+    }
