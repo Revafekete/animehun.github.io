@@ -241,12 +241,12 @@ h1{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #120C0C;
+    background: #dd5f319d;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #382525;
+    background: #5e1900;
   }
 .navbar-brand{
     padding-left: 20px;
