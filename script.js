@@ -35,3 +35,66 @@ if (history.scrollRestoration) {
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 }
+
+function belepes(){
+
+      var cuccok = 0;
+    if (document.getElementById("felhasznalob").value != ""){
+        cuccok++;
+    }
+    if (document.getElementById("jelszob").value != ""){
+        cuccok++;
+    }
+
+    if (cuccok < 2){
+        document.getElementById("felhasznalob").placeholder = "Nincs felhasználónév";
+        document.getElementById("felhasznalob").setAttribute("class","placeholder");
+        document.getElementById("jelszob").placeholder = "Nincs jelszó";
+        document.getElementById("jelszob").setAttribute("class","placeholder");
+    }
+    if (cuccok == 2){
+        document.getElementById("hibauzi").innerHTML = "Érvénytelen jelszó vagy felhasználó";
+     
+    }
+}
+function regisztracio(){
+    var cuccok = 0;
+    if (document.getElementById("felhasznalo").value != ""){
+        cuccok++;
+    }
+    if (document.getElementById("email").value != ""){
+        cuccok++;
+    }
+    var jelszo = document.getElementById("jelszo").value;
+    var jelszomeg = document.getElementById("jelszoujra").value;
+    var email = document.getElementById('email');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if (email.value != "" & !filter.test(email.value))  {
+        document.getElementById("hibauzi").innerHTML = "Az E-mail nem helyes!<br>";;
+    }
+    if (email.value == ""){
+        document.getElementById("email").placeholder = "Nincs megadva E-mail!";
+        document.getElementById("email").setAttribute("class","placeholder");
+    }
+
+    if (cuccok < 4){
+        
+        document.getElementById("felhasznalo").placeholder = "Nincs felhasználó!";
+        document.getElementById("felhasznalo").setAttribute("class","placeholder");
+        document.getElementById("jelszo").placeholder = "Hibás jelszó!";
+        document.getElementById("jelszo").setAttribute("class","placeholder");
+        document.getElementById("jelszoujra").placeholder = "Nincs megadva jelszó!";
+        document.getElementById("jelszoujra").setAttribute("class","placeholder");
+  
+    }
+    if (jelszomeg != jelszo){
+        document.getElementById("hibauzi").innerHTML = "A jelszavak nem egyeznek!<br>";;
+    } else{
+        cuccok = cuccok + 2;
+    }
+    
+    if (cuccok == 4){
+        alert("Még nincs kész mivel csak 1 hetet dolgoztam az odlalon, 2 hét is kevés lenne erre sztemxdd")
+    }
+    
+}

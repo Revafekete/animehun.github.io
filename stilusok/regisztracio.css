@@ -19,3 +19,6 @@
     -o-border-radius: 0px;
 }
 }
+.placeholder::-webkit-input-placeholder {
+    color: #b20000
+ }

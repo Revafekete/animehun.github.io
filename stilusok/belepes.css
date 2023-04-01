@@ -348,6 +348,12 @@ h1{
     }
 
 }
+#hibauzi{
+    color:#b20000 !important;
+}
+.placeholder::-webkit-input-placeholder {
+    color: #b20000;
+ }
 .btn{
     border: 2px #DD6031 solid;
 }

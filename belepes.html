@@ -16,7 +16,7 @@
     <div id="loader"></div>
 
 
-    <div class="container-fluid px-0" id="egesz">
+    <div class="container-fluid px-0" id="egesz" id="egesz">
         <div id="formazas">
         <div id="vissza"><a href="index.html">⋐</a></div>
         <div class="row">
@@ -26,12 +26,15 @@
          
             <h3>FELHASZNÁLÓ</h3>
             <div class="row">
-            <input type="text"></div>
+            <input type="text" id="felhasznalob"></div>
             <h3>JELSZÓ</h3>
             <div class="row">
-            <input type="password"></div>
-            <div id="nincsfelh"><a href="regisztracio.html">Még nincs felhasználóm</a></div>
-            <button class="navbar-toggler" type="button" >BELÉPEK</button>
+            <input type="password" id="jelszob"></div>
+            <p id="hibauzi"></p>
+            <div id="nincsfelh"><a href="regisztracio.html">Még nincs felhasználóm</a>
+                </div>
+            <button class="navbar-toggler" type="button" onClick="belepes()">BELÉPEK</button>
+            
         </form>
     </div>
     </div>
