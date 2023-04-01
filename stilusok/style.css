@@ -32,16 +32,39 @@ html{
 
 }
 #udv{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+
     text-shadow: 2px 2px 2px black;
     margin:0 auto;
-    backdrop-filter: blur(10px);
-    background-color: #00000039;
+
+    font-size: 70px;
     max-width: 450px;
-    border-left:#DD6031 4px solid;
     
     margin-bottom:10px;
 }
+
+#randomanimegomb button{
+    background-color: #DD6031;
+    color:rgb(0, 0, 0);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-weight: 700;
+    padding:8px;
+    transition:0.8s;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -ms-transition:0.8s;
+    -o-transition:0.8s;
+    border:none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+}
+#randomanimegomb button:hover{
+    background-color: #000000;
+    color:#ffffff;
+}
+
 .carousel {
     border-radius: 10px;
     margin:0 auto;
@@ -82,7 +105,7 @@ body{
 }
 .dropdown-menu button:hover{
     background-color: #DD6031;
-    color:black!important;
+    color:rgba(0, 0, 0, 0.801)!important;
 }
 header{
     height: 100vh;
@@ -104,14 +127,6 @@ h1{
     width: 100%;
     background: linear-gradient(to bottom, black,rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
 
-}
-#formazas video{
-    height: auto;
-    width: 100%;
-    left:0;
-  
-    position: absolute;
-    z-index:-2;
 }
 
 .navbar-brand{
@@ -247,7 +262,8 @@ h1{
 }
 .btn{
     background: rgba(0, 0, 0, 0.555)!important;
-    padding:7px!important;
+    padding-top:7px!important;
+    padding-bottom:7px!important;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -255,21 +271,29 @@ h1{
     -o-border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.344);
     backdrop-filter: blur(10px);
+    padding-left: 15px !important;
+    padding-right: 15px!important;
 }
 .navbar-text a:hover{
     text-decoration: none;
 }
 .btn:active{
-    border:none;
+    outline: 0!important;
 }
 .btn:focus{
-    border:3px #DD6031 solid;
-    padding:6px!important;
+    outline:0!important;
+}
+button:active, button:focus{
+    outline:0!important;
+}
+.btn:focus, a:focus{
+    outline: 0!important;
 }
 @media only screen and (min-width: 1000px) {
     .btn{
         margin-right:20px;
         font-weight: 550;
+        
     }
   
     .navbar-brand{
@@ -288,15 +312,18 @@ h1{
 }
     .nav-link:hover{
         border-bottom: #DD6031 solid 3px;
+        color:white !important;
         padding:5px;
     }
     .btn:hover{
-        border:2.5px #DD6031 solid;
-        padding:6px!important;
+        border:3px #DD6031 solid;
+        padding-top:6px!important;
+        padding-bottom:6px!important;
     }
 }
 .btn{
     border: 2px #DD6031 solid;
+
 }
 .navbar-toggler{
     background: #DD6031;
@@ -304,44 +331,8 @@ h1{
 
 
 
-.tech-slideshow {
-    height: 400px;
-    max-width: 400px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .tech-slideshow > div {
-    height: 200px;
-    width: 2526px;
-    background: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTWW4wvzwA9V0xdjG-kF_yXQH__lV5ciORmTPCi4iO6OzxzhJi');
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    transform: translate3d(0, 0, 0);
-  }
-  .tech-slideshow .mover-1 {
-    animation: moveSlideshow 12s linear infinite;
-  }
-  .tech-slideshow .mover-2 {
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
-    background-position: 0 -200px;
-    animation: moveSlideshow 15s linear infinite;
-  }
-  .tech-slideshow:hover .mover-2 {
-    opacity: 1;
-  }
-  
-  @keyframes moveSlideshow {
-    100% { 
-      transform: translateX(-66.6666%);  
-    }
-  }
 
+  
 
 
 
@@ -349,17 +340,13 @@ h1{
 
 
 #tartalom h1{
-    border-bottom: 5px #DD6031 solid;
+    border-left: 5px #DD6031 solid;
     width: 30%;
-    background-color: #18181899;
-    border-radius: 10px;
     padding-bottom: 5px;
     text-align: left;
     justify-self: center;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    padding-left:10px;
+    font-size: 30px;
 }
 .navbar-light .navbar-text a{
     color:white!important;
@@ -388,11 +375,10 @@ margin-top:50px ;
         position: fixed;
         width: 100%;
         backdrop-filter: blur(20px);
-        background-color: #030202c9!important;
+        border-bottom: #DD6031 2px solid;
 }
 header h1{
-    backdrop-filter: blur(20px);
-    background-color: #030202cd!important;
+    font-size: 35px!important;
 }
 
 .dropdown-menu{

@@ -113,9 +113,10 @@ input:focus{
     -moz-transition:0.6s;
     -ms-transition:0.6s;
     -o-transition:0.6s;
+    box-shadow: 0px 0px 20px black;
 }
 #vissza a{
-    color:#dd5f31;
+    color:#000000;
     font-weight: 500;
     position:absolute;
     left:20px;
@@ -127,20 +128,21 @@ input:focus{
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     backdrop-filter: blur(20px);
-    background: #21212137;
+    background: #dd5f31;
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 5px;
-    border:2px #dd5f31 solid;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.779);
 }
 #vissza a:hover{
     text-decoration: none;
+    background-color: BLACK;
     color:white;
     font-size: 30px;
 }
@@ -190,18 +192,6 @@ form input{
 }
 form .row{
     margin: 10px!important;;
-}
-.dropdown-menu{
-    background: #030202!important;
- 
-   
-}
-.dropdown-menu button{
-    color:rgba(255, 255, 255, 0.784)!important
-}
-.dropdown-menu button:hover{
-    background-color: #DD6031;
-    color:black!important;
 }
 
 b{
@@ -331,34 +321,12 @@ h1{
 .fekahatter{
     background-color: #030202!important;
 }
-.nav-link{
-    font-size: 20px!important;
-    font-weight: 550;
-    cursor:pointer;
-  ;
-}
+
 .nem:hover{
     border-bottom: #DD6031 solid 0px;
     padding:0px;
 }
-.btn{
-    background: rgba(0, 0, 0, 0.555)!important;
-    padding:7px!important;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.344);
-    backdrop-filter: blur(10px);
-}
-.btn:active{
-    border:none;
-}
-.btn:focus{
-    border:3px #DD6031 solid;
-    padding:6px!important;
-}
+
 @media only screen and (min-width: 1000px) {
     .btn{
         margin-right:20px;
@@ -371,31 +339,15 @@ h1{
     #feher{
         color:white;
     }
-    .nav-link{
-        transition: 0.2s all;
-        color:rgba(255, 255, 255, 0.784)!important;
-        -webkit-transition: 0.2s all;
-        -moz-transition: 0.2s all;
-        -ms-transition: 0.2s all;
-        -o-transition: 0.2s all;
-}
-    .nav-link:hover{
-        border-bottom: #DD6031 solid 3px;
-        padding:5px;
-    }
-    .btn:hover{
-        border:2.5px #DD6031 solid;
-        padding:6px!important;
-    }
+
 }
 .btn{
     border: 2px #DD6031 solid;
 }
 .navbar-toggler{
       backdrop-filter: blur(20px);
-      background: #212121aa;
-      color:white!important;
-      border: 2px #DD6031 solid;
+      background: #DD6031;
+      color:rgb(0, 0, 0)!important;
       padding:8px;
       border-radius: 5px;
       -webkit-border-radius: 5px;
@@ -404,11 +356,17 @@ h1{
       -o-border-radius: 5px;
       position:absolute;
       right: 40px;
-      font-weight: 550;
+      font-weight: 700;
       font-size: 17px;
+      transition: 0.6S;
+      -webkit-transition: 0.6S;
+      -moz-transition: 0.6S;
+      -ms-transition: 0.6S;
+      -o-transition: 0.6S;
 }
 .navbar-toggler:hover{
-    border: 3px #DD6031 solid;
+    background: black!important;
+    color:white !important;
     padding:7px;
   
 }
