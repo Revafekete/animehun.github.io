@@ -279,9 +279,17 @@ h1{
     backdrop-filter: blur(10px);
     padding-left: 15px !important;
     padding-right: 15px!important;
+    border: 2px #DD6031 solid;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    font-weight: 600!important;
 }
 .navbar-text a:hover{
     text-decoration: none;
+
 }
 .btn:active{
     outline: 0!important;
@@ -294,6 +302,9 @@ button:active, button:focus{
 }
 .btn:focus, a:focus{
     outline: 0!important;
+}
+.navbar-light .navbar-text a{
+    color:white!important;
 }
 @media only screen and (min-width: 1000px) {
     .btn{
@@ -322,15 +333,16 @@ button:active, button:focus{
         padding:5px;
     }
     .btn:hover{
-        border:3px #DD6031 solid;
-        padding-top:6px!important;
-        padding-bottom:6px!important;
+        border:2px #000000 solid;
+        background-color: #DD6031!important;
+       
+
+    }
+    .text-white a:hover{
+        color:rgb(0, 0, 0) !important;
     }
 }
-.btn{
-    border: 2px #DD6031 solid;
 
-}
 .navbar-toggler{
     background: #DD6031;
 }
@@ -361,9 +373,7 @@ button:active, button:focus{
     padding-left:10px;
     font-size: 30px;
 }
-.navbar-light .navbar-text a{
-    color:white!important;
-}
+
 @media only screen and (min-width: 800px) {
 #tartalom{
     padding-top: 100px!important;
