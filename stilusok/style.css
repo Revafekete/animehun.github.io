@@ -380,8 +380,7 @@ margin-top:50px ;
         -o-transition:0.6s all!important           ;
         position: fixed;
         width: 100%;
-        backdrop-filter: blur(20px);
-        border-bottom: #DD6031 2px solid;
+        backdrop-filter: blur(2px);
 }
 header h1{
     font-size: 35px!important;
@@ -391,7 +390,7 @@ header h1{
     position:sticky!important;
 }
 .btn{
-    background-color: rgba(0, 0, 0, 0.197)!important;
+    background-color: rgba(0, 0, 0, 0.608)!important;
     backdrop-filter: blur(20px);
     font-weight: 550px;
 }
