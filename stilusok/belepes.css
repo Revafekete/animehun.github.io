@@ -77,14 +77,10 @@ body{
 }
 @media only screen and (min-width: 800px) {
     #box{
-    min-width: 24%;
+    min-width: 25%;
 }
 }
-@media only screen and (max-width: 800px) {
-    #box{
-    min-width: 50%;
-}
-}
+
 input:focus{
     transition:0.6s;
     outline: 2px #dd5f31 solid;
@@ -117,6 +113,52 @@ input:focus{
     -moz-transition:0.6s;
     -ms-transition:0.6s;
     -o-transition:0.6s;
+}
+#vissza a{
+    color:#dd5f31;
+    font-weight: 500;
+    position:absolute;
+    left:20px;
+    top:10px;
+    font-size: 30px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    backdrop-filter: blur(20px);
+    background: #21212137;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border:2px #dd5f31 solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 1;
+}
+#vissza a:hover{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+@media only screen and (max-width: 800px) {
+    #box{
+        padding-top: 150px;
+    min-width: 100%;
+    margin-top: 0px;
+    min-height: 100vh;
+    background-color: #030202c6;
+    backdrop-filter: blur(5px);
+    border:none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
 }
 .row{
     margin:0!important;

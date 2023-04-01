@@ -102,9 +102,18 @@ h1{
   
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
+    background: linear-gradient(to bottom, black,rgba(217, 217, 217, 0),rgba(217, 217, 217, 0),rgba(217, 217, 217, 0), black)!important;
 
 }
+#formazas video{
+    height: auto;
+    width: 100%;
+    left:0;
+  
+    position: absolute;
+    z-index:-2;
+}
+
 .navbar-brand{
     font-size: 30px!important;
 }
@@ -292,15 +301,80 @@ h1{
 .navbar-toggler{
     background: #DD6031;
 }
+
+
+
+.tech-slideshow {
+    height: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .tech-slideshow > div {
+    height: 200px;
+    width: 2526px;
+    background: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTWW4wvzwA9V0xdjG-kF_yXQH__lV5ciORmTPCi4iO6OzxzhJi');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .tech-slideshow .mover-1 {
+    animation: moveSlideshow 12s linear infinite;
+  }
+  .tech-slideshow .mover-2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 15s linear infinite;
+  }
+  .tech-slideshow:hover .mover-2 {
+    opacity: 1;
+  }
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+
+
+
+
+
+
+
 #tartalom h1{
     border-bottom: 5px #DD6031 solid;
-    width: 160px;
+    width: 30%;
     background-color: #18181899;
+    border-radius: 10px;
     padding-bottom: 5px;
-    margin:0 auto;
+    text-align: left;
+    justify-self: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .navbar-light .navbar-text a{
     color:white!important;
+}
+@media only screen and (min-width: 800px) {
+#tartalom{
+    padding-top: 100px!important;
+    padding-left:40px!important;
+}
+}
+@media only screen and (max-width: 770px) {
+    #tartalom h1{
+    width: 100%;
+margin-top:50px ;
+}
 }
 @media only screen and (max-width: 1000px) {
     .navbar{
