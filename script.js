@@ -1,4 +1,11 @@
+
+
+
+
 var myVar;
+
+
+
 
 function myFunction() {
   myVar = setTimeout(showPage, 500);
@@ -13,6 +20,7 @@ const kep = kepek[kepIndex];
 // Állítsuk be a header háttereként a kiválasztott képet
 const header = document.querySelector("header");
 header.style.backgroundImage = `url(${kep})`;
+
 }
 
 function showPage() {
@@ -101,5 +109,6 @@ function regisztracio(){
 }
 
 function toggler(){
-    
+
 }
+
