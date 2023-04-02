@@ -28,7 +28,7 @@ html{
 #headerszoveg p{
     text-shadow: 2px 2px 2px black;
     color:white;
-    font-size: 25px;
+    font-size: 1.600vw;
     font-weight: 600;
 
 }
@@ -37,7 +37,7 @@ html{
     text-shadow: 2px 2px 2px black;
     margin:0 auto;
 
-    font-size: 70px;
+    font-size: 4vw;
     max-width: 450px;
     
     margin-bottom:10px;
@@ -109,7 +109,8 @@ body{
     -o-border-radius: 10px!important;
 }
 .dropdown-menu button{
-    color:rgba(255, 255, 255, 0.784)!important
+    color:rgba(255, 255, 255, 0.784)!important;
+    font-size: 1.200rem !important;
 }
 .dropdown-menu button:hover{
     background-color: #DD6031;
@@ -189,6 +190,9 @@ h1{
     #loader {
         position: absolute;
         left: 45%;
+    }
+    #headerszoveg p{
+        font-size: 25px;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -401,12 +405,12 @@ button:active, button:focus{
     padding-left:10px;
     font-size: 30px;
     font-weight: 700;
+    margin-left:40px !important;
 }
 
 @media only screen and (min-width: 800px) {
 #tartalom{
     padding-top: 100px!important;
-    padding-left:40px!important;
 }
 }
 @media only screen and (max-width: 770px) {
@@ -528,7 +532,7 @@ header h1{
 .MultiCarousel { 
     float: left; 
     overflow: hidden;
-      width: 90vw;
+      width: 95vw;
        position:relative;
        margin:0 auto;
        padding-top:60px;
@@ -617,6 +621,10 @@ header h1{
     .btn{
         font-size: 1.200rem !important;
     }
+    .dropdown-menu button{
+        color:rgba(255, 255, 255, 0.784)!important;
+        font-size: 1rem !important;
+    }
 }
 .MultiCarousel .leftLst,.MultiCarousel .rightLst{
     font-size: 25px !important ;
@@ -669,3 +677,20 @@ header h1{
             margin:0 auto;
             margin-top: 10px;
         }
+#tartalom hr{
+    max-width: 95%;
+    margin:0 auto;
+    border-top: 4px  solid #DD6031 !important;
+    margin-bottom: 40px !important;
+}
+.col .MultiCarousel{
+    margin:0 auto;
+}
+@media only screen and (max-width: 1500px) {
+    #tartalom h1{
+        text-align: center !important;
+        margin:0 auto !important;
+        margin-left: 0px !important;
+       
+    }
+}
