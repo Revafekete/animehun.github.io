@@ -538,9 +538,8 @@ header h1{
 }
 .MultiCarousel { 
     float: left; 
-    overflow: hidden;
-     padding: 15px;
-      width: 94%;
+
+      width: 90vw;
        position:relative;
        margin:0 auto;
      }
@@ -555,7 +554,7 @@ header h1{
         .MultiCarousel .MultiCarousel-inner .item > div {
               text-align: center;
              
-      
+              margin:0 auto;
               background:#000000;
               color:#ffffff;
         
