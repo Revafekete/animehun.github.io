@@ -729,21 +729,26 @@ header h1{
         }
 
         footer{
-            background: linear-gradient(to top, rgba(31, 31, 31, 0.671), rgba(31, 31, 31, 0.671), rgba(0, 0, 0, 0)) ;
-            height: 20vh;
+            background: linear-gradient(to top, rgba(31, 31, 31, 0.5), rgba(31, 31, 31, 0.5), rgba(0, 0, 0, 0)) ;
+            height: 25vh;
             color:white!important;
         }
         footer h2{
-            background-color: rgba(0, 0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.404);
             padding: 8px;
-            max-width: 100%;
+            max-width: 250px;
             margin:0 auto;
+            margin-bottom: 30px;
             position:relative;
-            top:80px
+            top:80px;
+            border-bottom:#31dd56 2px solid;
         }
         footer button{
             position:relative;
-            top:100px
+            top:80px;
+            color:white !important;
+            width: 95% !important;
+            
         }
 #tartalom hr{
     max-width: 95%;
