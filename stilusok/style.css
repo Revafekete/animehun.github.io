@@ -479,5 +479,126 @@ header h1{
     
       .carousel-inner:hover{
         background:rgba(0, 0, 0, 0.201)!important;
-        z-index: 1;
+        z-index: 400;
       }
+      .carousel-control-prev{
+        z-index: 500;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.727));
+      }
+      .carousel-control-next{
+        z-index: 500;
+        background: linear-gradient(to left,  rgba(0, 0, 0, 0.804),rgba(0, 0, 0, 0));
+      }
+
+      .carousel-item{
+        transition: 0.6s !important;
+        -webkit-transition: 0.6s !important;
+        -moz-transition: 0.6s !important;
+        -ms-transition: 0.6s !important;
+        -o-transition: 0.6s !important;
+}
+#kepszoveg{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:0 auto;
+    transition:0.8s !important;
+    -webkit-transition:0.8s !important;
+    -moz-transition:0.8s !important;
+    -ms-transition:0.8s !important;
+    -o-transition:0.8s !important;
+}
+#kepszoveg:hover{
+    background-color: #ffffff5e;
+    opacity: 0.9;
+}
+
+.carousel-item img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.carousel-item img{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  
+}
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden;
+     padding: 15px;
+      width: 95%;
+       position:relative;
+       margin:0 auto;
+     }
+    .MultiCarousel .MultiCarousel-inner { 
+        transition: 1s ease all;
+         float: left; 
+        }
+        .MultiCarousel .MultiCarousel-inner .item { 
+            float: left;
+          
+        }
+        .MultiCarousel .MultiCarousel-inner .item > div {
+              text-align: center;
+             
+      
+              background:#000000;
+              color:#ffffff;
+        
+              border-radius:10px;
+              -webkit-border-radius:10px;
+              -moz-border-radius:10px;
+              -ms-border-radius:10px;
+              -o-border-radius:10px;
+              height: 310px;
+              width: 200px;
+              z-index:2;
+}
+ .MultiCarousel .MultiCarousel-inner .item img{
+    border-radius:10px;
+    margin:5px!important;
+    z-index:1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+ 
+ }
+ .MultiCarousel .MultiCarousel-inner .item img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+ 
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+        position:absolute; 
+        border-radius:50%;
+        top:calc(50% - 20px);
+    }
+    .MultiCarousel .leftLst { 
+        left:0; 
+    }
+    .MultiCarousel .rightLst { 
+        right:0; 
+    }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
