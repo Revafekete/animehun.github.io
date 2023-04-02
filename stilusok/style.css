@@ -381,6 +381,9 @@ button:active, button:focus{
     margin: 0 auto;
     border-bottom: #DD6031 3px solid;
 }
+#kapcsolat{
+    font-size: 40px !important;
+}
 
   
 
@@ -629,4 +632,25 @@ header h1{
 
         #tartalom .row{
             margin-bottom: 40px !important;
+        }
+        nav{
+            position: sticky !important;
+        }
+        .navbar-expand{
+            position: sticky !important;
+        }
+
+        footer{
+            border-top: #DD6031 4px solid;
+            background: rgb(15, 15, 15);
+            height: 20vh;
+            color:white!important;
+        }
+        footer h1{
+            background-color: black;
+            padding: 8px;
+            border-bottom: #DD6031 3px solid;
+            max-width: 250px;
+            margin:0 auto;
+            margin-top: 10px;
         }

@@ -100,3 +100,6 @@ function regisztracio(){
     
 }
 
+function toggler(){
+    
+}
