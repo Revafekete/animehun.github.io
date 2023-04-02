@@ -139,7 +139,7 @@ header{
     color:white;
     font-weight: 700;
     padding-bottom: 5px;
-    max-width: 270px;
+    max-width: 280px;
     backdrop-filter: blur(10px);
     margin:0 auto;
     margin-top:10px;
@@ -406,6 +406,7 @@ button:active, button:focus{
     font-size: 30px;
     font-weight: 700;
     margin-left:40px !important;
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
 }
 
 @media only screen and (min-width: 800px) {
