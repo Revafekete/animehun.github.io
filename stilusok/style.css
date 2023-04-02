@@ -736,7 +736,7 @@ header h1{
         footer h2{
             background-color: rgba(0, 0, 0, 0.404);
             padding: 8px;
-            max-width: 250px;
+            max-width: 60%;
             margin:0 auto;
             margin-bottom: 30px;
             position:relative;
@@ -803,4 +803,9 @@ transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.692) !important;
     backdrop-filter: blur(10px) !important;
     border:2px #31dd56 solid !important;
+}
+@media only screen and (max-width: 800px) {
+    footer h2{
+        max-width: 95% !important;
+    }
 }
