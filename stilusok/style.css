@@ -607,6 +607,15 @@ header h1{
         width:270px;
         height: 400px;
     }
+    .navbar-brand{
+        font-size:2.0rem!important;
+    }
+    .nav-link{
+        font-size: 1.200rem !important;
+    }
+    .btn{
+        font-size: 1.200rem !important;
+    }
 }
 .MultiCarousel .leftLst,.MultiCarousel .rightLst{
     font-size: 25px !important ;
