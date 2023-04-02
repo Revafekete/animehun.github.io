@@ -721,3 +721,14 @@ header h1{
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
+#tartalomhatter{
+    background-image: url('https://wallpapercave.com/wp/wp4947058.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-color: #000000 !important;
+}
+#tartalom{
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877),black) !important;
+}
