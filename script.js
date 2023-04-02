@@ -3,7 +3,8 @@ var myVar;
 function myFunction() {
   myVar = setTimeout(showPage, 500);
   const kepek = ["./backg/1.jpg","./backg/2.png","./backg/3.jpg","./backg/4.jpg","./backg/5.jpg","./backg/6.jpg",
-"./backg/7.jpg","./backg/8.jpg","./backg/9.png",];
+"./backg/7.jpg","./backg/8.jpg","./backg/9.png","./backg/10.jpg","./backg/11.jpg","./backg/12.jpg","./backg/13.jpg","./backg/14.jpg","./backg/15.png","./backg/16.jpg",
+"./backg/17.jpg","./backg/18.jpg","./backg/19.jpg","./backg/20.png","./backg/21.jpg","./backg/22.jpg","./backg/23.jpg","./backg/24.jpg","./backg/25.png","./backg/26.jpg","./backg/27.png",];
 
 // Véletlenszerűen válasszuk ki egy képet
 const kepIndex = Math.floor(Math.random() * kepek.length);
@@ -98,3 +99,4 @@ function regisztracio(){
     }
     
 }
+

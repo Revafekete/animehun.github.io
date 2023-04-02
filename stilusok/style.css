@@ -19,10 +19,11 @@ html{
     margin: 0!important;
 
 }
+
 #headertartalom{
     display:flex;
     align-content: center;
-    height: 85%;
+    height: 100%;
 }
 #headerszoveg p{
     text-shadow: 2px 2px 2px black;
@@ -72,23 +73,22 @@ html{
     border-radius: 10px;
     margin:0 auto;
     position: relative;
-    width: 80%;
-    height: 270px;
+    width: 270px;
+    height: 400px;
     overflow: hidden;
-    background-color: #DD6031;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    margin-top: 10px;
 }
-    .carousel-item {
-      position: absolute;
-      width: 80%;
-      height: 270px;
-      border: 1px solid #2e2e2e;
-      top: 0;
-      left: 100%;}
+#headerszoveg{padding-top: 100px;}
 body{
     background: #030202;
     transition: 0.6s all;
@@ -115,8 +115,14 @@ body{
     font-weight: 700;
     color:rgba(0, 0, 0, 0.801)!important;
 }
+.feketenav{
+    background:rgba(0, 0, 0, 0.589)!important;
+    backdrop-filter: blur(20px);
+}
+
 header{
-    height: 100vh;
+    margin-top: -75px;
+    height:100vh;
     background-image: url('https://images2.alphacoders.com/983/983353.png') ;
     width: 100%!important;
     background-attachment: fixed;
@@ -124,8 +130,21 @@ header{
     background-size: cover;
     backdrop-filter: blur(10px)!important;
     z-index:50;
+    
 }
-
+#ajanlo{
+   
+    color:white;
+    font-weight: 700;
+    padding-bottom: 5px;
+    max-width: 270px;
+    backdrop-filter: blur(10px);
+    margin:0 auto;
+    margin-top:10px;
+    border-left: #DD6031 5px solid;
+    background-color: #03020288;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.762);
+}
 h1{
     color: #ffffff!important;
 }
@@ -405,7 +424,7 @@ margin-top:50px ;
         backdrop-filter: blur(2px);
 }
 header h1{
-    font-size: 35px!important;
+    font-size: 55px!important;
 }
 
 .dropdown-menu{
@@ -433,7 +452,7 @@ header h1{
 }
 @media only screen and (max-width: 768px) {
     #headerszoveg{
-        margin-top: 100px;
+        margin-top: -150px;
     }
     header{
         height: 110vh;
@@ -450,4 +469,15 @@ header h1{
         z-index:50;
         }
     }
+    .navbar{
+        position:sticky!important;
+        top:0 !important;
+        width: 100% !important;
+          z-index: 999;
+    }
 
+    
+      .carousel-inner:hover{
+        background:rgba(0, 0, 0, 0.201)!important;
+        z-index: 1;
+      }

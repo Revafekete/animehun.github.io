@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./stilusok/kapcsolat.css">
     <link rel="stylesheet" href="./stilusok/style.css">
+    <link rel="shortcut icon" href="./kepek/logo.png" type="image/x-icon">
     <script src="script.js"></script>
 
-    <title>Document</title>
+    <title>ANIHUN | Kapcsolat</title>
 </head>
 <body  onload="myFunction()">
     <div id="loader"></div>
@@ -64,6 +65,22 @@
     </div>
   
 
+    <script>
+      var myVar;
     
+    function myFunction() {
+      myVar = setTimeout(showPage, 500);
+    }
+    
+    function showPage() {
+      var loader = document.getElementById("loader");
+      var egesz =   document.getElementById("egesz");
+      loader.classList.add("hide");
+      egesz.classList.add("aktiv");
+    document.body.style.overflow = "visible";
+    }
+    
+    
+        </script>
 </body>
 </html>
