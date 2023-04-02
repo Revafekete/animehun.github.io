@@ -118,9 +118,9 @@ body{
     color:rgba(0, 0, 0, 0.801)!important;
 }
 .feketenav{
-    background:rgba(0, 0, 0, 0.589)!important;
+    background:rgba(0, 0, 0, 0.877)!important;
     backdrop-filter: blur(20px);
-    border-bottom: 3px #DD6031 solid;
+    border-bottom: 2px #DD6031 solid;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -160,7 +160,7 @@ h1{
   
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom,rgba(18, 18, 18, 0.801),rgba(18, 18, 18, 0.801),rgba(18, 18, 18, 0.801),rgba(18, 18, 18, 0.801), black)!important;
+    background: linear-gradient(to bottom,black,rgba(18, 18, 18, 0.842),rgba(18, 18, 18, 0.842),rgba(18, 18, 18, 0.842),rgba(18, 18, 18, 0.842), black)!important;
 
 }
 
@@ -219,7 +219,13 @@ h1{
         left: 37%;
     }
 }
-  
+nav{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
   
 
   @keyframes spin {
@@ -738,5 +744,5 @@ header h1{
     background-color: #000000 !important;
 }
 #tartalom{
-    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925),black) !important;
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897),black) !important;
 }
