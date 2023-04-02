@@ -704,7 +704,7 @@ header h1{
     margin-bottom: 20px;
     font-size: 20px;
     padding:5px;
-    font-weight: 150;
+    font-weight: 550;
     cursor: pointer !important;
     z-index:100;
     transition: 0.3s;
@@ -730,5 +730,5 @@ header h1{
     background-color: #000000 !important;
 }
 #tartalom{
-    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877),black) !important;
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925),black) !important;
 }
