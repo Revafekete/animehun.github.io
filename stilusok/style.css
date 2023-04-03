@@ -681,7 +681,8 @@ header h1{
     -moz-transform: scale(1.08);
     -ms-transform: scale(1.08);
     -o-transform: scale(1.08);
-    color: #31dd56;
+    color: #31dd56 !important;
+    text-decoration: none !important;
 }
  
     .leftLst,  .rightLst {
@@ -697,7 +698,9 @@ header h1{
         z-index:499;
 
 }
-
+a:hover{
+    text-decoration: none !important;
+}
 @media only screen and (max-width: 1500px) {
     .MultiCarousel .MultiCarousel-inner .item > div {
 

@@ -1,0 +1,81 @@
+header{
+    height: 30vh !important;
+
+}
+/* ------------------- anime ----------------- */
+
+#anim{
+    padding-top: 20px;
+}
+#anime{
+    background-color: rgba(0, 0, 0, 0.384)!important;
+    backdrop-filter: blur(10px);
+    max-width: 250px;
+    margin: 0 auto;
+    border-bottom: #31dd56 3px solid;
+}
+#anime{
+    font-size: 40px !important;
+}
+#headerszoveg p{
+    margin-top: 5px;
+}
+
+header{
+    background-image: url('https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#animetartalom h1{
+    width: 200px;
+    text-align: center !important;
+    margin:0 auto;
+    position:relative !important;
+    top:0;
+    right: 0;
+    border-right: 5px solid #31dd56;
+    border-left: 5px solid #31dd56;
+    background: rgba(0, 0, 0, 0.637);
+}
+#animetartalom{
+    height: 65vh;
+    width: 100%;
+}
+#animetartalom .row{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#animetartalom .col-md{
+    margin-bottom: 40px !important;
+}
+#animetartalom{
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897),black) !important;
+}
+#animetartalom p{
+    color:rgba(255, 255, 255, 0.747);
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 550;
+}
+#animetartalom a{
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.747) !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+#animetartalom a:hover{
+    color: rgba(207, 207, 207, 0.747) !important;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+/* ---------------------------------------------- */
