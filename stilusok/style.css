@@ -111,25 +111,31 @@ body{
     -moz-border-radius: 10px!important;
     -ms-border-radius: 10px!important;
     -o-border-radius: 10px!important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
+
 .dropdown-menu button{
     color:rgba(255, 255, 255, 0.784)!important;
     font-size: 1.200rem !important;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 .dropdown-menu button:hover{
     background-color: #31dd56;
     font-weight: 700;
     color:rgba(0, 0, 0, 0.801)!important;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 .feketenav{
     background:rgba(0, 0, 0, 0.877)!important;
@@ -454,20 +460,7 @@ button:active, button:focus{
     border: none !important;
 }
 
-#kapcs{
-    padding-top: 120px;
-}
-#kapcsolat{
-    background-color: black!important;
-    max-width: 250px;
-    margin: 0 auto;
-    border-bottom: #31dd56 3px solid;
-}
-#kapcsolat{
-    font-size: 40px !important;
-}
 
-  
 
 
 
