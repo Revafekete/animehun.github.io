@@ -807,14 +807,15 @@ header h1{
         footer h2{
             background-color: rgba(0, 0, 0, 0.404);
             padding: 8px;
-            max-width: 60%;
-            margin:0 auto;
-            margin-bottom: 30px;
+            max-width: 95%;
+            margin:0 auto !important;
+            margin-bottom: 30px !important;
             position:relative;
             top:80px;
             border-bottom:#31dd56 2px solid;
         }
         footer button{
+            margin: 0 auto !important;
             position:relative;
             top:80px;
             color:white !important;
