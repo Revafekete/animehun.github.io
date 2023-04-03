@@ -74,8 +74,8 @@ html{
     border-radius: 10px;
     margin:0 auto;
     position: relative;
-    width: 15.0625vw;
-    height: 43.2796697626419vh;
+    width: 40.0625vw;
+    height: 40.2796697626419vh;
     overflow: hidden;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -88,6 +88,10 @@ html{
     -ms-transition: 0.6s;
     -o-transition: 0.6s;
     margin-top: 10px;
+}
+.carousel img{
+    width: 40.0625vw;
+    height: 40.2796697626419vh;
 }
 #headerszoveg{padding-top: 100px;}
 body{
@@ -148,13 +152,34 @@ header{
     color:white;
     font-weight: 700;
     padding-bottom: 5px;
-    max-width: 15vw;
+    max-width: 40.0625vw;
     backdrop-filter: blur(10px);
     margin:0 auto;
     margin-top:10px;
     border-left: #31dd56 5px solid;
     background-color: #03020288;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.762);
+}
+#itemnev{
+    position: absolute !important;
+    bottom:0px;
+    margin:0 auto !important;
+    z-index:600;
+    color:black;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0px 0px 10px black;
+    background: rgba(0, 0, 0, 0.74);
+    padding: 15px;
+    border-top: 2px #31dd56 solid;
+    width: 100%;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.762);
+
 }
 h1{
     color: #ffffff!important;
