@@ -485,7 +485,7 @@ button:active, button:focus{
 }
 @media only screen and (max-width: 770px) {
     #tartalom h1{
-        text-align: center !important;
+                text-align: center !important;
         margin:0 auto !important;
         margin-left: 0px !important;
     width: 100%;
@@ -713,6 +713,10 @@ a:hover{
         width: 200px;
     }
     .carousel {
+        width:500px;
+        height: 330px;
+    }
+    .carousel img{
         width:500px;
         height: 330px;
     }
