@@ -485,8 +485,13 @@ button:active, button:focus{
 }
 @media only screen and (max-width: 770px) {
     #tartalom h1{
+        text-align: center !important;
+        margin:0 auto !important;
+        margin-left: 0px !important;
     width: 100%;
 margin-top:50px ;
+border-right: 5px #31dd56 solid;
+background: rgba(0, 0, 0, 0.274);
 }
 }
 @media only screen and (max-width: 1000px) {
@@ -730,10 +735,7 @@ a:hover{
     .item h3{
         text-align: center !important;
     }
-    #tartalom h1{
-        border-right: 5px #31dd56 solid;
-        background: rgba(0, 0, 0, 0.274);
-    }
+
 }
 .item h3{
     text-align: left;
@@ -828,14 +830,7 @@ a:hover{
 .col .MultiCarousel{
     margin:0 auto;
 }
-@media only screen and (max-width: 1500px) {
-    #tartalom h1{
-        text-align: center !important;
-        margin:0 auto !important;
-        margin-left: 0px !important;
-       
-    }
-}
+
 
 #tartalomhatter{
     background-image: url('https://wallpapercave.com/wp/wp4947058.png');
