@@ -38,7 +38,7 @@ html{
     margin:0 auto;
 
     font-size: 4vw;
-    max-width: 450px;
+    max-width: 460px;
     
     margin-bottom:10px;
 }
@@ -497,6 +497,7 @@ background: rgba(0, 0, 0, 0.274);
 }
 }
 @media only screen and (max-width: 1000px) {
+
     .navbar{
         z-index: 1;
 
@@ -668,6 +669,9 @@ header h1{
     .MultiCarousel .MultiCarousel-inner .item img{
         width: 180px !important;
         height:  282px !important;
+    }
+    #headerszoveg p{
+        font-size: 28px;
     }
  }
  
