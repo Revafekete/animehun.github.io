@@ -121,7 +121,7 @@ input:focus{
     position:absolute;
     left:20px;
     top:10px;
-    font-size: 30px;
+    font-size: 35px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -131,7 +131,8 @@ input:focus{
     background:linear-gradient(to right, #31dd56, #007018) ;
     padding: 10px;
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
+  
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
