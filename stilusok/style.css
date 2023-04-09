@@ -223,7 +223,16 @@ h1{
     background: linear-gradient(to bottom,black,rgba(18, 18, 18, 0.842),rgba(18, 18, 18, 0.842),rgba(18, 18, 18, 0.842),rgba(18, 18, 18, 0.842), black)!important;
 
 }
-
+::selection {
+    background-color: #31dd5696;
+    color: black;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+  }
+  
+  ::selection:hover {
+    opacity: 1;
+  }
 .navbar-brand{
     font-size: 2.500rem!important;
 }

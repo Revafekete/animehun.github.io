@@ -1,7 +1,4 @@
-header{
-    height: 30vh !important;
 
-}
 /* ------------------- anime ----------------- */
 
 #anim{
@@ -10,7 +7,9 @@ header{
 #anime{
     background-color: rgba(0, 0, 0, 0.384)!important;
     backdrop-filter: blur(10px);
-    max-width: 250px;
+    max-width:fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     border-bottom: #31dd56 3px solid;
 }
@@ -21,29 +20,13 @@ header{
     margin-top: 5px;
 }
 
-header{
-    background-image: url('https://i.pinimg.com/originals/5e/4c/65/5e4c655b9353e0be289273b3e7c4b227.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#animetartalom h1{
-    width: 200px;
-    text-align: center !important;
-    margin:0 auto;
-    position:relative !important;
-    top:0;
-    right: 0;
-    border-right: 5px solid #31dd56;
-    border-left: 5px solid #31dd56;
-    background: rgba(0, 0, 0, 0.637);
-}
+
 #animetartalom{
-    height: 65vh;
+    height: 90vh;
     width: 100%;
 }
 #animetartalom .row{
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 #animetartalom .col-md{
@@ -51,6 +34,7 @@ header{
 }
 #animetartalom{
     background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897),black) !important;
+    z-index: -1;
 }
 #animetartalom p{
     color:rgba(255, 255, 255, 0.747);
@@ -77,5 +61,87 @@ header{
     -o-transition: 0.3s;
 }
 
+@media only screen and (max-width: 768px) {
+    #headerszoveg{
+        margin-top: -50px !important;
+    }}
 
+
+
+    #animeheaderszoveg p{
+        font-size: 28px;
+        text-shadow: 2px 2px 2px black;
+        color:white;
+        font-weight: 600;
+    }
+    #leiras{
+        border-left: 5px #31dd56 solid;
+        width: 30%;
+        padding-bottom: 5px;
+        text-align: left;
+        justify-self: center;
+        padding-left:10px;
+        font-size: 30px;
+        font-weight: 700;
+
+        background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+    }
+    #szoveg{
+        text-align: left !important;
+        margin-top: 20px;
+    }
+    #animetartalom img{
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+         
+}
+#hatter{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+#infok span{
+    font-size: 22px;
+    color:#31dd56;
+    font-weight: 700;
+}
+#infok p{
+    line-height: 15px;
+}
+#infok{
+    text-align: left !important;
+    margin-top: 20px;
+}
+#gomb button{
+    background:linear-gradient(to right, #31dd56, #007c1b) !important;
+    color:rgb(0, 0, 0);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-weight: 700;
+    padding:8px;
+    font-size: 1.400rem !important;
+    transition:0.8s;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -ms-transition:0.8s;
+    -o-transition:0.8s;
+    border:none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
+    
+}
+#gomb button:hover{
+    background: #000000 !important;
+    color:#ffffff;
+    border: 2px #31dd56 solid;
+    padding:7px;
+}
 /* ---------------------------------------------- */

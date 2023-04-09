@@ -359,6 +359,10 @@ h1{
 .placeholder::-webkit-input-placeholder {
     color: #b20000;
  }
+ ::selection {
+    background-color: #31dd56c9;
+    color: black;
+  }
 .navbar-toggler{
     border: none !important;
       background:linear-gradient(to right, #31dd56, #007018) ;
