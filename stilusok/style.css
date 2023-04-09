@@ -224,11 +224,17 @@ h1{
 
 }
 ::selection {
-    background-color: #31dd5696;
-    color: black;
+    background-color: #ffffff1e;
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255);
     opacity: 0.8;
     transition: opacity 0.5s ease;
-  }
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
   
   ::selection:hover {
     opacity: 1;
