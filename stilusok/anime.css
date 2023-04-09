@@ -61,12 +61,13 @@
     -o-transition: 0.3s;
 }
 #animetartalom img{
-    border: 3px #31dd56 solid;
+    border: 4px #31dd56 solid;
     transition: 0.4s;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+    box-shadow: 0px 0px 20px black;
 }
 #animetartalom img:hover{
     scale:1.050;
