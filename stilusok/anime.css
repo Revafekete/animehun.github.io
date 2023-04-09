@@ -196,6 +196,7 @@
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    border: 2px #31dd56 solid;
 }
 @media only screen and (max-width: 1200px) {
     #infok{
