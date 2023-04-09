@@ -132,7 +132,7 @@
 #infok{
     text-align: left !important;
     margin-top: 20px;
-    border-right: 4px #31dd56 dashed;
+
 }
 
 #gomb button{
@@ -228,9 +228,11 @@
     padding-bottom:40px !important;
 }
 #animetartalom hr{
-    max-width: 95%;
+    max-width: 60%;
     margin:0 auto;
     height: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     background:linear-gradient(to right,  #31dd56 ,#007c1b,#31dd56 ,#007c1b,#31dd56 ) !important;
     margin-bottom: 40px !important;
 }
