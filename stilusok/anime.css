@@ -133,11 +133,7 @@
     margin-top: 20px;
     border-right: 4px #31dd56 dashed;
 }
-@media only screen and (max-width: 1200px) {
-    #infok{
-        border-right: 0px #31dd56 dashed;
-    }
-}
+
 #gomb button{
     background:linear-gradient(to right, #31dd56, #007c1b) !important;
     color:rgb(0, 0, 0);
@@ -200,5 +196,30 @@
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+}
+@media only screen and (max-width: 1200px) {
+    #infok{
+        border-right: 0px #31dd56 dashed;
+    }
+    #infok{
+        text-align: center !important;
+    }
+    #szoveg{
+        text-align: center !important;
+    }
+    #infok h1{
+        margin:0 auto;
+        border-right: #31dd56 5px solid;
+        width: 100%;
+        text-align: center;
+        background: black;
+    }
+    #szoveg h1{
+        margin:0 auto;
+        border-right: #31dd56 5px solid;
+        width: 100%;
+        text-align: center;
+        background: black;
+    }
 }
 /* ---------------------------------------------- */
