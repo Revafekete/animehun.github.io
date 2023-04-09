@@ -136,8 +136,7 @@
 }
 
 #gomb button{
-    background:linear-gradient(to right, #31dd56, #007c1b) !important;
-    color:rgb(0, 0, 0);
+
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -153,13 +152,17 @@
     -o-transition:0.8s;
     border:none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
-    
-}
-#gomb button:hover{
     background: #000000 !important;
     color:#ffffff;
     border: 2px #31dd56 solid;
     padding:7px;
+    
+}
+#gomb button:hover{
+    background:linear-gradient(to right, #31dd56, #007c1b) !important;
+    color:rgb(0, 0, 0);
+    border: none;
+    padding:9px;
 }
 
 #vissza a{
