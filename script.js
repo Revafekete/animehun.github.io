@@ -113,3 +113,4 @@ function toggler(){
 }
 
 
+document.addEventListener('contextmenu', event => event.preventDefault());
