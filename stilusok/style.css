@@ -4,6 +4,7 @@
 }
 html{
     max-width: 100%!important;
+    scroll-behavior: smooth !important;
 }
 .container-fluid{
     background-color: #030202;
