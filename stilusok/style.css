@@ -71,7 +71,7 @@ html{
     padding:7px;
 }
 #aktiv{
-    color:white;
+    color:#b7b7b7 !important;
     font-weight: 620 !important;
 }
 .carousel {
