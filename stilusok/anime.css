@@ -19,7 +19,9 @@
 #headerszoveg p{
     margin-top: 5px;
 }
-
+body{
+  cursor:url(../cursor.png), auto;
+}
 
 #animetartalom{
     height: 90vh;
