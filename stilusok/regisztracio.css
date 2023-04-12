@@ -22,3 +22,6 @@
 .placeholder::-webkit-input-placeholder {
     color: #b20000
  }
+body{
+      cursor:url(../cursor.png), auto;
+}
