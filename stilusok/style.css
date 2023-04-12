@@ -70,7 +70,10 @@ html{
     border: 2px #31dd56 solid;
     padding:7px;
 }
-
+#aktiv{
+    color:white;
+    font-weight: 620 !important;
+}
 .carousel {
     border-radius: 10px;
     margin:0 auto;
