@@ -76,7 +76,18 @@ body{
     height: 100vh;
 
 }
-
+button{
+    cursor:url(../pointer.png), pointer !important;
+}
+button:not(:disabled) {
+    cursor:url(../pointer.png), pointer !important;
+}
+a{
+    cursor:url(../pointer.png), pointer !important;
+}
+a:hover{
+    cursor:url(../pointer.png), pointer !important;
+}
 @media only screen and (min-width: 800px) {
     #box{
     min-width: 25%;
