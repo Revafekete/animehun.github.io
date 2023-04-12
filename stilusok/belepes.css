@@ -9,7 +9,9 @@ html{
     background-color: #030202;
     width: 100%!important;
 }
-
+body{
+  cursor:url(../cursor.png), auto;
+}
 .col{
     margin: 0!important;
 
