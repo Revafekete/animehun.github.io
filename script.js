@@ -61,7 +61,7 @@ function belepes(){
         document.getElementById("jelszob").placeholder = "Nincs jelszó";
         document.getElementById("jelszob").setAttribute("class","placeholder");
     }
-    if (cuccok == 2){
+    if (cuccok > 1){
         document.getElementById("hibauzi").innerHTML = "Érvénytelen jelszó vagy felhasználó";
      
     }
@@ -78,10 +78,10 @@ function regisztracio(){
         emailv++;
     }
       if (document.getElementById("jelszo").value != ""){
-       jelszov = 0;
+       jelszov++;
       }
     if (document.getElementById("jelszoujra").value != "" & document.getElementById("jelszoujra").value == document.getElementById("jelszo").value){
-       jelszomegv = 0;
+       jelszomegv++;
       }
     var jelszo = document.getElementById("jelszo").value;
     var jelszomeg = document.getElementById("jelszoujra").value;
@@ -110,9 +110,7 @@ function regisztracio(){
     if (jelszomeg != jelszo){
         document.getElementById("hibauzi").innerHTML = "A jelszavak nem egyeznek!<br>";
         jelszomegv = 0;
-    } else{
-        cuccok = cuccok + 2;
-    }
+    } 
     
     if (felhasznalov > 0 & jelszomegv > 0 & emailv > 0 & jelszov >0){
       
