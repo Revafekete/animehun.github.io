@@ -44,6 +44,11 @@ html{
     margin-bottom:10px;
 }
 
+
+a{
+    cursor:url(../pointer.png), pointer !important;
+}
+
 #randomanimegomb button{
     background:linear-gradient(to right, #31dd56, #007c1b) !important;
     color:rgb(0, 0, 0);
