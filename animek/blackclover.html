@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stilusok/style.css">
+    <link rel="stylesheet" href="../stilusok/anime.css">
+  
+
+ 
+    <link rel="shortcut icon" href="../kepek/logo.png" type="image/x-icon">
+    <script src="../script.js"></script>
+
+    <title>ANIHUN | Black Clover</title>
+</head>
+<body  onload="myFunction()">
+    <div id="loader"></div>
+
+
+    <div class="container-fluid px-0" id="egesz">
+   
+   
+       
+            <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+              
+                <a class="navbar-brand" href="../index.html"><b><span id="feher">Ani</span><span id="zold">hun</span></b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">FŐOLDAL</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../kapcsolat.html">KAPCSOLAT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="sablon.html">BLACK CLOVER<span class="sr-only">(current)</span></a>
+                    </li>
+          
+                  </ul>
+                  <span class="navbar-text">
+                    <button type="button" class="gomb text-white fekahatter" id="navgomb"><a href="../belepes.html">BELÉPÉS</a></button>
+                  </span>
+                </div>
+              </nav>
+              <div style="background-image: url('https://wallpapercave.com/wp/wp5060560.png'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat;">
+              <div id="vissza"><a href="../index.html">⋐</a></div>
+                <div  id="animetartalom">
+           
+  
+                <div id="animeformazas">
+                  <div class="col-md" id="animeheaderszoveg">
+              <div id="anim">
+                
+<h1 id="anime">BLACK CLOVER</h1>
+</div>
+  <p>Részletek</p>
+</div>
+<div class="row">
+  <div class="col-xl-3">
+<img src="https://cdn.myanimelist.net/images/anime/5/88165l.jpg" width="250" height="350">
+  </div>
+  <div class="col-xl-3" id="infok">
+    <h1 id="leiras">Infók</h1>
+    <p><span>KATEGÓRIA:</span> NINCS</p>
+    <p><span>TÍPUS: </span> NINCS</p>
+    <p><span>KIADÁS: </span> NINCS</p>
+    <p><span>STUDIÓ: </span> NINCS</p>
+    <p><span>BESOROLÁS: </span> NINCS</p>
+    <p><span>RÉSZEK: </span> NINCS</p>
+  </div>
+  <div class="col-xl-4" id="szoveg">
+    <h1 id="leiras">Leírás</h1>
+		<p>NINCS</p>
+  </div>
+
+</div>
+<hr>
+<div class="row" >
+  <div class="col" id="gombok">
+    <a href="#" id="gomb"><button>MEGNÉZEM</button></a>
+       <a href="#" id="gomb"><button>MAL</button></a>
+       <a href="#" id="gomb"><button>AMV</button></a>
+
+  </div>
+</div>
+  </div>
+        
+     
+
+         </div>
+          
+        </div>
+        </div>
+
+  
+
+
+    <script>
+      const navbar = document.getElementById("nav");
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
+          navbar.classList.add('feketenav');
+        } else {
+          navbar.classList.remove('feketenav');
+        }
+      });
+
+      var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 500);
+    }
+    
+    function showPage() {
+      var loader = document.getElementById("loader");
+      var egesz =   document.getElementById("egesz");
+      loader.classList.add("hide");
+      egesz.classList.add("aktiv");
+    document.body.style.overflow = "visible";
+    }
+    
+    
+        </script>
+</body>
+</html>
