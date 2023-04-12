@@ -196,15 +196,13 @@ header{
 #itemgomb{
     position: absolute !important;
     bottom:20px;
-
+    font-weight: 700 !important;
     z-index:600;
     color:rgb(255, 255, 255);
     font-size: 35px;
-
     left:50px;
-    text-shadow: 0px 0px 10px black;
     padding: 15px;
-
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.69);
 }
 #itemgomb a{
     color:white !important;
