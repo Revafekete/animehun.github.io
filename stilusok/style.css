@@ -199,7 +199,7 @@ header{
 #itemgomb{
     position: absolute !important;
     bottom:20px;
-    font-weight: 650 !important;
+    font-weight: 630 !important;
     z-index:600;
     color:rgb(255, 255, 255);
     font-size: 35px;
