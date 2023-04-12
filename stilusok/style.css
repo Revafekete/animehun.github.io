@@ -105,6 +105,7 @@ body{
     -moz-transition: 0.6s all;
     -ms-transition: 0.6s all;
     -o-transition: 0.6s all;
+    cursor:url(../cursor.png), auto;
 }
 
 .dropdown-menu{
