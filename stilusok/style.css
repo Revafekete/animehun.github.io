@@ -472,7 +472,13 @@ button:active, button:focus{
         color:rgb(0, 0, 0) !important;
     }
 }
-
+.navbar-brand{
+    transition: 0.3s;
+}
+.navbar-brand:hover{
+    scale: 1.050;
+    transition: 0.3s;
+}
 .navbar-toggler{
     background:linear-gradient(to right, #31dd56, #007c1b) !important;
     outline: none !important;
