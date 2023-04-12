@@ -43,8 +43,12 @@ html{
     
     margin-bottom:10px;
 }
-
-
+button{
+    cursor:url(../pointer.png), pointer !important;
+}
+button:not(:disabled) {
+    cursor:url(../pointer.png), pointer !important;
+}
 a{
     cursor:url(../pointer.png), pointer !important;
 }
