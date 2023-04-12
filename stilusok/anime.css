@@ -137,7 +137,10 @@ body{
     margin-top: 20px;
 
 }
-
+#aktiv{
+    color:#b7b7b7 !important;
+    font-weight: 640 !important;
+}
 #gomb button{
 
     border-radius: 8px;
