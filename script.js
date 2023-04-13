@@ -73,7 +73,8 @@ function regisztracio(){
     var email = document.getElementById('email');
     var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     if (email.value != "" & !filter.test(email.value))  {
-        document.getElementById("hibauzi").innerHTML = "Az E-mail nem helyes!<br>";;
+        document.getElementById("hibauzi").innerHTML = "Az E-mail nem helyes!<br>";
+        document.getElementById("sikeres").innerHTML = "";
     } else{
         emaill = true;
     }
@@ -90,12 +91,14 @@ function regisztracio(){
   document.getElementById("jelszoujra").setAttribute("class","placeholder");
 }
 if (document.getElementById("jelszoujra").value != document.getElementById("jelszo").value && document.getElementById("jelszoujra").value.length != 0){
-    document.getElementById("hibauzi").innerHTML = "A jelszavak nem egyeznek";
+    document.getElementById("hibauzi").innerHTML = "A jelszavak nem egyeznek!<br>";
+    document.getElementById("sikeres").innerHTML = "";
 } else{
     jelszom = true;
-}
+} 
   if (document.getElementById("jelszo").value.length < 6 && document.getElementById("jelszo").value.length != 0){
-    document.getElementById("hibauzi").innerHTML = "A jelszónak minimum 6 karakterből kell állnia!";
+    document.getElementById("hibauzi").innerHTML = "A jelszónak minimum 6 karakterből kell állnia!<br>";
+    document.getElementById("sikeres").innerHTML = "";
 } 
     if (jelszomegv = 0){
         document.getElementById("jelszoujra").placeholder = "Nincs megadva jelszó!";
@@ -106,11 +109,17 @@ if (document.getElementById("jelszoujra").value != document.getElementById("jels
         document.getElementById("felhasznalo").setAttribute("class","placeholder");
   } 
   if (document.getElementById("felhasznalo").value.length < 3 && document.getElementById("felhasznalo").value.length != 0){
-    document.getElementById("hibauzi").innerHTML = "A felhasználónévnek minimum 3 karakterből kell állnia!";
+    document.getElementById("hibauzi").innerHTML = "A felhasználónévnek minimum 3 karakterből kell állnia!<br>";
   } else if(document.getElementById("felhasznalo").value.length > 3){
         felhsz = true;
   }
   
+  if (felhsz == false && jelszom == false && emaill == false){
+    document.getElementById("hibauzi").innerHTML = "Hibás adatok";
+    document.getElementById("sikeres").innerHTML = "";
+} else if(document.getElementById("jelszo").value.length == 0 && document.getElementById("jelszoujra").value.length == 0){
+    document.getElementById("hibauzi").innerHTML = "Hibás adatok";
+}
 
     
     if (felhsz == true && jelszom == true & emaill == true){
@@ -118,9 +127,7 @@ if (document.getElementById("jelszoujra").value != document.getElementById("jels
         alert("Nincs kész mivel nem volt idő.")
         document.getElementById("hibauzi").innerHTML = "";
      
-    } else{
-        document.getElementById("hibauzi").innerHTML = "Hibás adatok";
-    }
+    }  
     
 }
 
