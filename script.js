@@ -80,7 +80,7 @@ function regisztracio(){
       if (document.getElementById("jelszo").value != ""){
        jelszov++;
       }
-    if (document.getElementById("jelszoujra").value != "" & document.getElementById("jelszoujra").value == document.getElementById("jelszo").value){
+    if (document.getElementById("jelszoujra").value != "" && document.getElementById("jelszoujra").value == document.getElementById("jelszo").value){
        jelszomegv++;
       }
     var jelszo = document.getElementById("jelszo").value;
@@ -112,7 +112,7 @@ function regisztracio(){
         jelszomegv = 0;
     } 
     
-    if (felhasznalov > 0 & jelszomegv > 0 & emailv > 0 & jelszov >0){
+    if (felhasznalov > 0 && jelszomegv > 0 && emailv > 0 && jelszov >0){
       
         alert("Nincs kész mivel nem volt idő.")
     }
