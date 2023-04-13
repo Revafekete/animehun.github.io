@@ -235,8 +235,13 @@ body{
         text-align: center;
         background: rgba(0, 0, 0, 0.473);
     }
+img{
+    margin-bottom: 10px;
+}
   #anime{
     margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   #gombok{
     padding-bottom:70px !important;
