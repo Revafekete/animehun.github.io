@@ -210,6 +210,9 @@ body{
     -o-transition: 0.5s;
     border: 2px #31dd56 solid;
 }
+#gombok{
+    padding-bottom:40px !important;
+}
 @media only screen and (max-width: 1200px) {
     #infok{
         border-right: 0px #31dd56 dashed;
@@ -235,6 +238,9 @@ body{
   #anime{
     margin-top: 40px;
   }
+  #gombok{
+    padding-bottom:70px !important;
+}
     #szoveg h1{
         margin:0 auto;
        
@@ -244,9 +250,7 @@ body{
         background: rgba(0, 0, 0, 0.473);
     }
 }
-#gombok{
-    padding-bottom:40px !important;
-}
+
 #animetartalom hr{
     max-width: 60%;
     margin:0 auto;
