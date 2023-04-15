@@ -719,16 +719,16 @@ header h1{
     }
  }
  .MultiCarousel .MultiCarousel-inner .item img:hover{
-    transform: scale(1.08);
+    transform: scale(1.06);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    -webkit-transform: scale(1.08);
-    -moz-transform: scale(1.08);
-    -ms-transform: scale(1.08);
-    -o-transform: scale(1.08);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
     color: #31dd56 !important;
     text-decoration: none !important;
 }
@@ -891,7 +891,7 @@ a:hover{
     background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.897),black) !important;
 }
 #tartalom  .MultiCarousel{
-
+    padding-bottom: 60px;
     padding-left: 0px;
     padding-right: 0px;
     left: 50%;
