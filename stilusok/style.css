@@ -899,6 +899,7 @@ transform: translateX(-50%);
 }
 #tartalom .gomb{
     border: none !important;
+    color:black !important;
 }
 #tartalom .gomb:hover{
     border: none !important;
