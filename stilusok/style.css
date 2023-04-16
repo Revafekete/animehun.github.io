@@ -949,7 +949,14 @@ a:hover{
     footer li{
         padding-left:50px;
         padding-right: 50px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    footer ul{
+        padding-bottom: 50px;
+        margin-top: 30px;
+    }
+    footer #anihunfooterszoveg{
+        text-align: center !important;
     }
 }
 #tartalom hr{
