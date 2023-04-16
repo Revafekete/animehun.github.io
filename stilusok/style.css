@@ -897,6 +897,7 @@ a:hover{
             background: linear-gradient(to top, rgba(31, 31, 31, 0.5), rgba(31, 31, 31, 0.5), rgba(0, 0, 0, 0)) ;
             height: fit-content;
             color:white!important;
+            margin-top: 120px;
         }
         footer #anihunfooterszoveg{
             text-align: left;
@@ -921,6 +922,7 @@ a:hover{
            padding-top: 100px;
            padding-bottom: 30px;
         }
+        
         footer #tamogatas{
             margin-left: 20px;
             margin-right: 20px;
