@@ -25,9 +25,9 @@ header.style.backgroundImage = `url(${kep})`;
 }
 
 function showPage() {
-  var loader = document.getElementById("loader");
+  var betolto = document.getElementById("betolto");
   var egesz =   document.getElementById("egesz");
-  loader.classList.add("hide");
+  betolto.classList.add("hide");
   egesz.classList.add("aktiv");
 document.body.style.overflow = "visible";
 }
