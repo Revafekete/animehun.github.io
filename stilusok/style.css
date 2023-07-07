@@ -706,6 +706,7 @@ header h1{
        margin:0 auto;
        padding-top:60px;
        padding-bottom:100px;
+       
      }
     .MultiCarousel .MultiCarousel-inner {
         transition: 0.5s ease all;
@@ -714,7 +715,9 @@ header h1{
         -moz-transition: 0.5s ease all;
         -ms-transition: 0.5s ease all;
         -o-transition: 0.5s ease all;
+        
 }
+
         .MultiCarousel .MultiCarousel-inner .item {
             float: left;
             transition: 0.2s;
@@ -746,10 +749,10 @@ header h1{
     height: 34.95vh !important;
     transition: 0.5s;
     -webkit-transition: 0.5s;
+    
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
- 
  }
 
 
@@ -769,9 +772,13 @@ header h1{
         height:  300px !important;
     }
  }
+ .MultiCarousel .MultiCarousel-inner .item:hover img {
+    transform: scale(1.03);
+}
  .MultiCarousel .MultiCarousel-inner .item img:hover{
     transform: scale(1.03);
     transition: 0.5s;
+    
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -782,6 +789,7 @@ header h1{
     -o-transform: scale(1.03);
     color: #31dd56 !important;
     text-decoration: none !important;
+    
 }
  .MultiCarousel .MultiCarousel-inner .item:hover .pad15 a h3{
     color: #31dd56 !important;
@@ -800,6 +808,41 @@ header h1{
         box-shadow: 0px 0px 10px black;
         z-index:499;
 
+}
+.MultiCarousel .MultiCarousel-inner .item {
+    position: relative; /* Hozzáadva a pozíció kezeléséhez */
+  }
+  .MultiCarousel .hover-overlay #hoverplay{
+    width: 30px !important;
+    height: 30px !important;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    background-color: #00000000;
+}
+  .MultiCarousel .MultiCarousel-inner .item .hover-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: opacity 0.5s, filter 0.5s;
+  }
+  
+  .MultiCarousel .MultiCarousel-inner .item:hover .hover-overlay {
+    opacity: 1;
+  }
+  
+  .MultiCarousel .MultiCarousel-inner .item img {
+    transition: 0.5s;
+  }
+
+  .MultiCarousel-inner img:hover{
+    backdrop-filter: blur(10px) !important;
+  }
+  .MultiCarousel .MultiCarousel-inner .item:hover img {
+    filter: brightness(20%);
+    -webkit-filter: brightness(20%);
 }
 a:hover{
     text-decoration: none !important;

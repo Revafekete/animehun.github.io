@@ -133,7 +133,7 @@ input:focus{
     font-weight: 500;
     position:absolute;
     left:20px;
-    top:10px;
+    top:20px;
     font-size: 35px;
     transition: 0.5s;
     -webkit-transition: 0.5s;

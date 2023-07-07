@@ -177,7 +177,7 @@ body{
     font-weight: 500;
     position:fixed;
     left:20px;
-    bottom:10px;
+    bottom:20px;
     font-size: 35px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -270,4 +270,10 @@ img{
     background:linear-gradient(to right,  #31dd56 ,#007c1b,#31dd56 ,#007c1b,#31dd56 ) !important;
     margin-bottom: 40px !important;
 }
+table, th, td {
+    border:1px solid black;
+  }
+  table{
+    width:100%
+  }
 /* ---------------------------------------------- */
