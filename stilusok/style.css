@@ -768,20 +768,24 @@ header h1{
     }
  }
  .MultiCarousel .MultiCarousel-inner .item img:hover{
-    transform: scale(1.06);
+    transform: scale(1.03);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    -webkit-transform: scale(1.06);
-    -moz-transform: scale(1.06);
-    -ms-transform: scale(1.06);
-    -o-transform: scale(1.06);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
     color: #31dd56 !important;
     text-decoration: none !important;
 }
- 
+ .MultiCarousel .MultiCarousel-inner .item:hover .pad15 a h3{
+    color: #31dd56 !important;
+
+}
+
     .leftLst,  .rightLst {
         position:absolute;
         border-radius:10px;
