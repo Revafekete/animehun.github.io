@@ -99,7 +99,7 @@ body{
         padding-bottom: 5px;
         padding-right: 120px;
         text-align: left;
-        justify-self: center;
+        justify-self: left;
         padding-left:10px;
         font-size: 30px;
         font-weight: 700;
@@ -169,7 +169,8 @@ body{
     background:linear-gradient(to right, #31dd56, #007c1b) !important;
     color:rgb(0, 0, 0);
     border: none;
-    padding:9px;
+    border: 2px solid rgba(0, 0, 0, 0)!important;
+    
 }
 
 #vissza a{

@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     padding:0;
     margin:0;
+    font-family: "Inter" !important;
 }
+
 html{
     max-width: 100%!important;
     scroll-behavior: smooth !important;
@@ -81,7 +85,7 @@ a:hover{
     background: #000000 !important;
     color:#ffffff;
     border: 2px #31dd56 solid;
-    padding:7px;
+  
 }
 #aktiv{
     color:#b7b7b7 !important;
@@ -460,11 +464,8 @@ nav{
 .gombocska:hover{
     transition: 0.5s !important;
     color:black!important;
-    border:none!important;
-    padding-top:7px!important;
-    padding-bottom:8px!important;
-    padding-left: 16px !important;
-    padding-right: 16px!important;
+    border:2px solid rgba(0, 0, 0, 0)!important;
+   
     background:linear-gradient(to right, #31dd56, #007c1b) !important;
     -webkit-transition: 0.5s !important;
     -moz-transition: 0.5s !important;
@@ -518,11 +519,8 @@ button:active, button:focus{
     .gomb:hover{
         transition: 0.5s !important;
         color:black!important;
-        border:none!important;
-        padding-top:7px!important;
-        padding-bottom:8px!important;
-        padding-left: 16px !important;
-        padding-right: 16px!important;
+        border:2px solid rgba(0, 0, 0, 0)!important;
+ 
         background:linear-gradient(to right, #31dd56, #007c1b) !important;
         -webkit-transition: 0.5s !important;
         -moz-transition: 0.5s !important;
@@ -558,7 +556,7 @@ button:active, button:focus{
     width: 30%;
     padding-bottom: 5px;
     text-align: left;
-    justify-self: center;
+    justify-self: left;
     padding-left:10px;
     font-size: 30px;
     font-weight: 700;
@@ -1051,7 +1049,10 @@ transform: translateX(-50%);
     color: #f3f3f3 !important;
     background: rgba(0, 0, 0, 0.692) !important;
     backdrop-filter: blur(10px) !important;
-    border:2px #31dd56 solid !important;
+    border:1px #31dd56 solid !important;
+}
+#tartalom .gomb button:hover{
+    border:1px #31dd56 solid !important;
 }
 #tartalom .gomb:focus{
     border: none !important;
