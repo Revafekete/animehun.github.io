@@ -24,7 +24,9 @@ body{
 }
 
 #animetartalom{
+    padding-top: 40px;
     height: 90vh;
+   
     width: 100%;
 }
 #animetartalom .row{
@@ -139,7 +141,7 @@ body{
 
 }
 #aktiv{
-    color:#b7b7b7 !important;
+    color:#31dd56 !important;
     font-weight: 640 !important;
 }
 #gomb button{
@@ -277,3 +279,4 @@ table, th, td {
     width:100%
   }
 /* ---------------------------------------------- */
+
