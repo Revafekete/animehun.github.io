@@ -202,13 +202,12 @@ body{
     text-decoration: none;
     background: black ;
     color:white;
-    font-size: 30px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    border: 2px #31dd56 solid;
+    border: 1px #31dd56 solid;
 }
 #gombok{
     padding-bottom:40px !important;

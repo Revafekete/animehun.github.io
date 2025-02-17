@@ -158,7 +158,6 @@ input:focus{
     text-decoration: none;
     background: black ;
     color:white;
-    font-size: 30px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
